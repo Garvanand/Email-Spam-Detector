@@ -32,6 +32,24 @@ Improved Productivity: By filtering out spam emails, users can focus on importan
 
 Customizable Thresholds: Users have the flexibility to adjust the sensitivity of the detector based on their preferences, allowing them to strike a balance between reducing false positives and minimizing the risk of missing legitimate emails.
 
+**Helping a Web Developer Integrate the Model**
+**1. Model Deployment as a Web Service
+The spam detector can be integrated into a web project by deploying the trained model as a RESTful API using a framework like Flask. This API would take an email as input, process it using the trained model, and return whether it is spam or not.
+
+**2. Flask API Implementation 
+**
+
+**3. Streamlit Hosting
+**
+Instead of using Flask, you can create a user-friendly web app using Streamlit. Streamlit allows for a fast and easy way to create web apps with a minimal amount of code.
+Step 1: Install Streamlit
+Step 2: Save the Model and Vectorizer
+Step 3: Create a spamclassifier.py File
+Step 4: Run the Streamlit App
+To run the Streamlit app, use the following command in your terminal:
+streamlit run spamclassifier.py
+
+
 **Conclusion:**
 
 My Email Spam Detector offers a comprehensive solution for effectively identifying and filtering out spam emails, providing users with a safer and more streamlined email experience. With its advanced machine learning algorithms and intuitive interface, users can enjoy a clutter-free inbox while minimizing the risk of falling victim to email-based threats.
